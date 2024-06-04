@@ -1,0 +1,28 @@
+{
+  "name": "matheusgzancanela/phptips016",
+  "description": "MINIFICAÇÃO DE ARQUIVOS JS E CSS COM MINIFY | PHP TIPS #016",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Minify.php"
+    ]
+  },
+  "require": {
+    "matthiasmullie/minify": "1.3.*"
+  }
+}
